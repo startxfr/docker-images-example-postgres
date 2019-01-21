@@ -1,0 +1,18 @@
+#!/bin/bash -e
+#
+# Source code pre-deploy script complementary to the application server pre-deploy script provided by STARTX.
+# This script will be executed before the deployement of a new container (or pod)
+# This script must be run within a STARTX builder image
+#
+# For more information refer to the documentation:
+#  https://github.com/startxfr/docker-images
+#
+
+echoNotVerbose "Sample postgres application pre-deploy hook"
+echoVerbose ""
+echoVerbose "+====================================================="
+echoVerbose "Sample postgres application pre-deploy hook"
+echoVerbose "+====================================================="
+
+# if you want to fail the pre-deploy hook, exit with error code > 0
+# exit 1;

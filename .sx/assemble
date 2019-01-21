@@ -1,0 +1,18 @@
+#!/bin/bash -e
+#
+# Source code assemble script complementary to the application server assemble script provided by STARTX.
+# This script will run after the middleware assembling and before publishing the resulting image
+# This script must be run within a STARTX builder image
+#
+# For more information refer to the documentation:
+#  https://github.com/startxfr/docker-images
+#
+
+echoNotVerbose "Sample postgres application build hook"
+echoVerbose ""
+echoVerbose "+====================================================="
+echoVerbose "Sample postgres application build hook"
+echoVerbose "+====================================================="
+
+# if you want to fail the build hook, exit with error code > 0
+# exit 1;

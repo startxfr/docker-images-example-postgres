@@ -1,0 +1,16 @@
+#!/bin/bash -e
+#
+# Source code usage script. Will replace the default usage script provided by STARTX.
+# This script must be run within a STARTX builder image
+#
+# For more information refer to the documentation:
+#  https://github.com/startxfr/docker-images
+#
+
+echoNotVerbose "Sample postgres application usage"
+echoVerbose ""
+echoVerbose "+====================================================="
+echoVerbose "Sample postgres application usage"
+echoVerbose "+====================================================="
+
+exec /bin/sx-postgres usageS2i
