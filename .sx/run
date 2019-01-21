@@ -12,5 +12,4 @@ echoVerbose ""
 echoVerbose "+====================================================="
 echoVerbose "Sample postgres application runtime"
 echoVerbose "+====================================================="
-
-exec /bin/sx-postgres run
+startPostgresService
