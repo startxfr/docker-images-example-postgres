@@ -14,5 +14,6 @@ echoVerbose "+====================================================="
 echoVerbose "Sample postgres application post-deploy hook"
 echoVerbose "+====================================================="
 
+exit 0;
 # if you want to fail the post-deploy hook, exit with error code > 0
 # exit 1;

@@ -14,3 +14,4 @@ echoVerbose "Sample postgres application usage"
 echoVerbose "+====================================================="
 
 exec /bin/sx-postgres usageS2i
+exit 0;
